@@ -4,9 +4,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 All the **material design** were done using [Angular Materials](https://material.angular.io/)
 
-## Setting up the environment
+The dashboard is hosted [here](https://antstack-dashboard.herokuapp.com/)
 
-Run `npm install` after pulling the sourec code, in the source directory.
+## Setting up the environment for local development
+
+Run `npm install` after pulling the source code, in the source directory.
 
 ## Running Development server
 
