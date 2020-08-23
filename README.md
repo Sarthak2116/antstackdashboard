@@ -1,5 +1,7 @@
 # Antstack Dashboard
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli)
+
 ## Overview and references
 
 The dashboard is used to display csv data{that was given in the zip file} in table format.
