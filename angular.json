@@ -118,5 +118,8 @@
       }
     }
   },
-  "defaultProject": "antstackdashboard"
+  "defaultProject": "antstackdashboard",
+  "cli": {
+    "analytics": false
+  }
 }
