@@ -1,6 +1,10 @@
-# Antstack Dashboard Overview and references
+# Antstack Dashboard
 
-All the **material design** were done using [Angular Materials](https://material.angular.io/)
+## Overview and references
+
+The dashboard is used to display csv data{that was given in the zip file} in table format.
+
+All the **material design** were referenced from [Angular Materials](https://material.angular.io/) (Table, paginator, sorter and icons)
 
 A step buy step guide for hosting application can be found [here](https://itnext.io/how-to-deploy-angular-application-to-heroku-1d56e09c5147)
 
