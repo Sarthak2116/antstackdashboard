@@ -40,7 +40,7 @@ export class DashboardComponent implements OnInit {
   @ViewChild(MatSort, {static: true}) sort: MatSort;
 
   constructor(
-    private http: HttpClient,public datepipe: DatePipe) {
+    private http: HttpClient, public datepipe: DatePipe) {
       this.http.get('assets/SeedData.csv', {responseType: 'text'}).subscribe(
         data => {
           const csvToRowArray = data.split('\n');
@@ -48,7 +48,7 @@ export class DashboardComponent implements OnInit {
           for (let index = 1; index <= csvToRowArray.length - 1; index++) {
             const row = csvToRowArray[index].split(',');
             const timestamp = Date.parse(row[3]);
-            let k = '';
+            let k = 'Null';
             if (isNaN(timestamp) === false) {
             const m = new Date(row[3]);
             k = this.datepipe.transform(m, 'dd/MM/yyyy');
@@ -78,7 +78,7 @@ export class DashboardComponent implements OnInit {
   applyFilterPincode(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     this.userArray.filterPredicate = (data, filter) =>
-      (data.deliveryPincode.indexOf(filter) != -1);
+      (data.deliveryPincode.indexOf(filter) !== -1);
     this.userArray.filter = filterValue.trim().toLowerCase();
     if (this.userArray.paginator) {
       this.userArray.paginator.firstPage();
@@ -87,7 +87,7 @@ export class DashboardComponent implements OnInit {
   applyFilterDate(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     this.userArray.filterPredicate = (data, filter) =>
-      (data.orderDate.indexOf(filter) != -1);
+      (data.orderDate.indexOf(filter) !== -1);
     this.userArray.filter = filterValue.trim().toLowerCase();
     if (this.userArray.paginator) {
       this.userArray.paginator.firstPage();
