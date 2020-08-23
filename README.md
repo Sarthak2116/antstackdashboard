@@ -6,6 +6,8 @@ All the **material design** were done using [Angular Materials](https://material
 
 The dashboard is hosted [here](https://antstack-dashboard.herokuapp.com/)
 
+The hosting method can be found [here](https://itnext.io/how-to-deploy-angular-application-to-heroku-1d56e09c5147)
+
 ## Setting up the environment for local development
 
 Run `npm install` after pulling the source code, in the source directory.
