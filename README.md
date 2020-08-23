@@ -1,12 +1,10 @@
-# Antstack Dashboard
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.0.
+# Antstack Dashboard Overview and references
 
 All the **material design** were done using [Angular Materials](https://material.angular.io/)
 
-The dashboard is hosted [here](https://antstack-dashboard.herokuapp.com/)
+A step buy step guide for hosting application can be found [here](https://itnext.io/how-to-deploy-angular-application-to-heroku-1d56e09c5147)
 
-The hosting method can be found [here](https://itnext.io/how-to-deploy-angular-application-to-heroku-1d56e09c5147)
+**The working dashboard is hosted [here](https://antstack-dashboard.herokuapp.com/)**
 
 ## Setting up the environment for local development
 
